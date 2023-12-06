@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>커피박실험결과</title>
+</head>
+<style>
+td {
+    border: 1px solid #0055a4;
+    font-weight: blod;
+}
+    
+
+table {
+    border-top: 2px solid #0055a4;
+    border-bottom: 2px solid #0055a4;
+    border-collapse: collapse;
+    text-align: center;
+}   
+    
+    div.home{
+    color: white;
+    background-color: #0055a4;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 100px;
+    width: 50px;
+}
+a.home:link, :visited {
+    color: white;
+    background-color: #0055a4;
+    text-decoration: none;
+}
+div.home2{
+    color: white;
+    background-color: #0055a4;
+    font-size: 40px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 300px;
+}
+a.home2:link, :visited {
+    color: white;
+    background-color: #0055a4;
+    text-decoration: none;
+}
+div.home3{
+    color: white;
+    background-color: #0055a4;
+    font-size: 20px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 50px;
+}
+a.home3:link, :visited {
+    color: white;
+    background-color: #0055a4;
+    text-decoration: none;
+}
+</style>
+<body style="background-color: #b8deff;">
+<h1 style="font-size: 50px;">커피박 실험 결과</h1>
+    <h2>커피박 수율 결과</h2>
+    <table>
+        <tr>
+            <td>&nbsp;</td>
+            <td>1차</td>
+            <td>2차</td>
+        </tr>
+        <tr>
+            <td>control</td>
+            <td>0.7</td>
+            <td>0.7</td>
+        </tr>
+    </table>
+    <h2>커피박 DNS법에 의한 환원당 정량</h2>
+    <table>
+        <tr>
+            <td>희석배수(control)</td>
+            <td>X2.5</td>
+            <td>X5</td>
+            <td>X10</td>
+        </tr>
+        <tr>
+            <td>흡광도(O.D)</td>
+            <td>0.021</td>
+            <td>0.018</td>
+            <td>0.008</td>
+        </tr>
+    </table>
+    <h2>커피박 DPPH 라디칼 소거능</h2>
+    <table>
+        <tr>
+            <td>희석배수(control)</td>
+            <td>X50</td>
+            <td>X100</td>
+            <td>X200</td>
+            <td>X400</td>
+            <td>X800</td>
+            <td>X1600</td>
+            <td>X3200</td>
+        </tr>
+        <tr>
+            <td>흡광도(O.D)</td>
+            <td>0.576</td>
+            <td>0.660</td>
+            <td>0.638</td>
+            <td>0.691</td>
+            <td>0.697</td>
+            <td>0.704</td>
+            <td>0.676</td>
+        </tr>
+    </table>
+    <h2>커피박 ABTS 양이온 라디칼 소거능</h2>
+    <table>
+        <tr>
+            <td>희석배수(control)</td>
+            <td>X50</td>
+            <td>X100</td>
+            <td>X200</td>
+            <td>X400</td>
+            <td>X800</td>
+            <td>X1600</td>
+            <td>X3200</td>
+            <td>X0</td>
+        </tr>
+        <tr>
+            <td>흡광도(O.D)</td>
+            <td>1.123</td>
+            <td>1.310</td>
+            <td>1.387</td>
+            <td>1.438</td>
+            <td>1.431</td>
+            <td>1.442</td>
+            <td>1.436</td>
+            <td>0.233</td>
+        </tr>
+    </table>
+    <h2>커피박 단백질 정량(lowry assay)</h2>
+    <p>BSA Standard</p>
+    <table>
+        <tr>
+            <td>농도(mg/mL)</td>
+            <td>1.2</td>
+            <td>0.8</td>
+            <td>0.6</td>
+            <td>0.4</td>
+            <td>0.2</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>흡광도(O.D)</td>
+            <td>0.626</td>
+            <td>0.512</td>
+            <td>0.380</td>
+            <td>0.311</td>
+            <td>0.165</td>
+            <td>0.014</td>
+        </tr>
+    </table>
+    <p>커피-control</p>
+    <table>
+        <tr>
+            <td>희석배수</td>
+            <td>X2.5</td>
+            <td>X5</td>
+            <td>X10</td>
+        </tr>
+        <tr>
+            <td>흡광도(O.D)</td>
+            <td>0.179</td>
+            <td>0.114</td>
+            <td>0.073</td>
+        </tr>
+    </table>
+    <h2>커피박 폴리페놀 정량</h2>
+    <table>
+        <tr>
+            <td>희석배수</td>
+            <td>X5</td>
+            <td>X10</td>
+            <td>X20</td>
+        </tr>
+        <tr>
+            <td>흡광도(O.D)</td>
+            <td>1.113</td>
+            <td>0.610</td>
+            <td>0.317</td>
+        </tr>
+    </table>
+    <h2>커피박 효소별 배양 시간별 흡광도 측정</h2>
+    <table>
+        <tr>
+            <td>시간|효소</td>
+            <td>희석배수</td>
+            <td>알칼리, 효소 처리X</td>
+            <td>control</td>
+            <td>Alcalase</td>
+            <td>Viscozyme</td>
+        </tr>
+        <tr>
+            <td rowspan="3">0hr</td>
+            <td>X10</td>
+            <td>0.613</td>
+            <td>1.238</td>
+            <td>1.274</td>
+            <td>1.111</td>
+        </tr>
+        <tr>
+            
+            <td>X100</td>
+            <td>0.061</td>
+            <td>0.126</td>
+            <td>0.128</td>
+            <td>0.123</td>
+        </tr>
+        <tr>
+            
+            <td>X100</td>
+            <td>0.057</td>
+            <td>0.130</td>
+            <td>0.126</td>
+            <td>0.125</td>
+        </tr>
+        <tr>
+            <td rowspan="3">3hr</td>
+            <td>X10</td>
+            <td>0.617</td>
+            <td>1.320</td>
+            <td>1.157</td>
+            <td>1.213</td>
+        </tr>
+        <tr>
+            
+            <td>X100</td>
+            <td>0.059</td>
+            <td>0.130</td>
+            <td>0.112</td>
+            <td>0.113</td>
+        </tr>
+        <tr>
+            
+            <td>X100</td>
+            <td>0.051</td>
+            <td>0.124</td>
+            <td>0.110</td>
+            <td>0.113</td>
+        </tr>
+        <tr>
+            <td rowspan="3">6hr</td>
+            <td>X10</td>
+            <td>0.595</td>
+            <td>1.228</td>
+            <td>1.142</td>
+            <td>1.112</td>
+        </tr>
+        <tr>
+            
+            <td>X100</td>
+            <td>0.059</td>
+            <td>0.133</td>
+            <td>0.110</td>
+            <td>0.100</td>
+        </tr>
+        <tr>
+            
+            <td>X100</td>
+            <td>0.055</td>
+            <td>0.124</td>
+            <td>0.107</td>
+            <td>0.096</td>
+        </tr>
+        <tr>
+            <td rowspan="3">9hr</td>
+            <td>X10</td>
+            <td>0.566</td>
+            <td>1.280</td>
+            <td>1.164</td>
+            <td>1.160</td>
+        </tr>
+        <tr>
+            
+            <td>X100</td>
+            <td>0.049</td>
+            <td>0.109</td>
+            <td>0.115</td>
+            <td>0.103</td>
+        </tr>
+        <tr>
+            
+            <td>X100</td>
+            <td>0.045</td>
+            <td>0.106</td>
+            <td>0.115</td>
+            <td>0.113</td>
+        </tr>
+        <tr>
+            <td rowspan="3">12hr</td>
+            <td>X10</td>
+            <td>0.563</td>
+            <td>1.151</td>
+            <td>1.069</td>
+            <td>1.168</td>
+        </tr>
+        <tr>
+            
+            <td>X100</td>
+            <td>0.045</td>
+            <td>0.114</td>
+            <td>0.101</td>
+            <td>0.104</td>
+        </tr>
+        <tr>
+            
+            <td>X100</td>
+            <td>0.045</td>
+            <td>0.115</td>
+            <td>0.099</td>
+            <td>0.103</td>
+        </tr>
+        <tr>
+            <td rowspan="3">24hr</td>
+            <td>X10</td>
+            <td>0.553</td>
+            <td>1.197</td>
+            <td>1.170</td>
+            <td>1.239</td>
+        </tr>
+        <tr>
+            
+            <td>X100</td>
+            <td>0.044</td>
+            <td>0.136</td>
+            <td>0.120</td>
+            <td>0.127</td>
+        </tr>
+        <tr>
+            
+            <td>X100</td>
+            <td>0.043</td>
+            <td>0.146</td>
+            <td>0.119</td>
+            <td>0.123</td>
+        </tr>
+    </table>
+    <h2>커피박 효소,시간별 pH 측정</h2>
+    <table>
+        <tr>
+            <td>시간|효소</td>
+            <td>알칼리, 효소 처리X</td>
+            <td>control</td>
+            <td>Alcalase</td>
+            <td>Viscozyme</td>
+        </tr>
+        <tr>
+            <td>0hr</td>
+            <td>4.85</td>
+            <td>6.20</td>
+            <td>6.55</td>
+            <td>6.07</td>
+        </tr>
+        <tr>
+            <td>3hr</td>
+            <td>4.68</td>
+            <td>6.34</td>
+            <td>6.69</td>
+            <td>6.16</td>
+        </tr>
+        <tr>
+            <td>6hr</td>
+            <td>4.52</td>
+            <td>6.33</td>
+            <td>6.67</td>
+            <td>6.16</td>
+        </tr>
+        <tr>
+            <td>9hr</td>
+            <td>4.47</td>
+            <td>6.33</td>
+            <td>6.64</td>
+            <td>6.17</td>
+        </tr>
+        <tr>
+            <td>12hr</td>
+            <td>4.41</td>
+            <td>6.35</td>
+            <td>6.64</td>
+            <td>6.18</td>
+        </tr>
+        <tr>
+            <td>24hr</td>
+            <td>4.46</td>
+            <td>6.32</td>
+            <td>6.57</td>
+            <td>6.16</td>
+        </tr>
+    </table>
+    <h2>커피박 효모 배양액 pH 측정</h2>
+    <table>
+        <tr>
+            <td>효소</td>
+            <td>알칼리, 효소 처리X</td>
+            <td>control</td>
+            <td>Viscozyme</td>
+            <td>Alcalase</td>
+        </tr>
+        <tr>
+            <td>1차(접종직후)</td>
+            <td>5.22</td>
+            <td>6.63</td>
+            <td>6.35</td>
+            <td>6.80</td>
+        </tr>
+        <tr>
+            <td>2차(약 24시간후)</td>
+            <td>5.16</td>
+            <td>6.61</td>
+            <td>6.36</td>
+            <td>6.80</td>
+        </tr>
+    </table>
+    <h2>커피박 효모 배양액 흡광도 측정</h2>
+    <table>
+        <tr>
+            <td>희석배수|효소</td>
+            <td>알칼리, 효소 처리X</td>
+            <td>control</td>
+            <td>Viscozyme</td>
+            <td>Alcalase</td>
+        </tr>
+        <tr>
+            <td>X10</td>
+            <td>0.487</td>
+            <td>1.425</td>
+            <td>1.648</td>
+            <td>1.643</td>
+        </tr>
+        <tr>
+            <td>X100</td>
+            <td>0.039</td>
+            <td>0.160</td>
+            <td>0.178</td>
+            <td>0.182</td>
+        </tr>
+    </table>
+    <p>-> 여러 실험을 통해서 커피박 배양액에서 유산균과 효모가 잘 안 자라는 것을 보고 항생제쪽으로 실험해보자고 하였지만 시간이 부족하여 여기서 마무리 되었습니다.</p>
+
+    <div class="home"><a class="home" href="../index.html">HOME</a></div>
+    <div class="home2" style="text-align: center;"><a class="home2" href="../mainfolder/pcescof.html">커피박실험과정</a></div>
+    <div class="home3"><a class="home3" href="../mainfolder/exper.html">실험</a></div>
+</body>
+</html>
